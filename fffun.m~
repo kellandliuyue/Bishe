@@ -1,0 +1,6 @@
+function Xnew=fffun(x,u)
+deltaT = 0.5
+tmp_exp = exp(-deltaT / (u(1) * u(2))
+Xnew(1,1) = x(1) - deltaT / u(5) * u
+Xnew(2,1) =  tmp_exp + (1 - (exp(-deltaT / (u(1) * u(2)))) * u(6) * u(8)))
+Xnew(3,1) = 0
